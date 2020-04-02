@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Login UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.deepPurple
       ),
       home: MyHomePage(title: 'Login UI'),
     );
@@ -40,9 +40,9 @@ class _MyHomePageState extends State<MyHomePage> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             colors: [
-              Colors.orange[900],
-              Colors.orange[800],
-              Colors.orange[400],
+              Colors.purple[900],
+              Colors.purple[800],
+              Colors.purple[400],
             ],
           ),
         ),
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
-                                      color: Color.fromRGBO(225, 95, 27, 0.3),
+                                      color: Color.fromRGBO(87, 3, 152, 0.3),
                                       blurRadius: 20,
                                       offset: Offset(0, 10))
                                 ]),
@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       textInputAction: TextInputAction.next,
                                       onFieldSubmitted: (_) =>
                                           FocusScope.of(context).nextFocus(),
-                                      cursorColor: Colors.orange,
+                                      cursorColor: Colors.purple,
                                       decoration: InputDecoration(
                                           focusColor: Colors.orange,
                                           hoverColor: Colors.orange,
@@ -149,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       keyboardType:
                                           TextInputType.visiblePassword,
                                       textInputAction: TextInputAction.done,
-                                      cursorColor: Colors.orange,
+                                      cursorColor: Colors.purple,
                                       decoration: InputDecoration(
                                         hintText: "Password",
                                         hoverColor: Colors.orange,
@@ -163,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             setState(() {
                                               _isEye = !_isEye;
                                               if(_isEye == true){
-                                                _passEyeCol = Colors.orange[800];
+                                                _passEyeCol = Colors.purple[800];
                                                 isHidden = false;
                                               }else{
                                                 _passEyeCol = Colors.grey;
@@ -196,7 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
-                          color: Colors.orange[800],
+                          color: Colors.purple[800],
                           onPressed: () {},
                           child: FadeAnimation(
                             1.9,
