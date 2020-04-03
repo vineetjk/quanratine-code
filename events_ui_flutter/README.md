@@ -1,4 +1,4 @@
-# login_screen_ui
+# events_ui_flutter
 
 A new Flutter project.
 

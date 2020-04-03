@@ -1,4 +1,4 @@
-package com.example.login_screen_ui
+package com.example.events_ui_flutter
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
