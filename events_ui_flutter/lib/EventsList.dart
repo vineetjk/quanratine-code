@@ -99,29 +99,7 @@ class EventList extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              FadeAnimation(
-                1.4,
-                makeItem(
-                  image: 'assets/images/event1.jpg',
-                  date: 17,
-                  month: "SEP",
-                  name: "Bumbershoot 2019",
-                  time: "19:00 PM",
-                ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              FadeAnimation(
-                1.5,
-                makeItem(
-                  image: 'assets/images/event1.jpg',
-                  date: 17,
-                  month: "SEP",
-                  name: "Bumbershoot 2019",
-                  time: "19:00 PM",
-                ),
-              ),
+              
             ],
           ),
         ),
