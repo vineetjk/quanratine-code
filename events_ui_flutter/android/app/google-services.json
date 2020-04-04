@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848008395652",
+    "firebase_url": "https://quarantine-code.firebaseio.com",
+    "project_id": "quarantine-code",
+    "storage_bucket": "quarantine-code.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848008395652:android:e84a143131f17fc45bbbd1",
+        "android_client_info": {
+          "package_name": "com.example.events_ui_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848008395652-3e5vi4gdpr3t61kf6hg065jp233gj7rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.events_ui_flutter",
+            "certificate_hash": "d92d57e4c6a30d3b11213d2356ff774e726d1760"
+          }
+        },
+        {
+          "client_id": "848008395652-5j2jgvc62o37sttn6khfklbigh05l27d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF7vUjtaI9u1kvLE6u82UUB6eQ1RBt5u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848008395652-5j2jgvc62o37sttn6khfklbigh05l27d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
